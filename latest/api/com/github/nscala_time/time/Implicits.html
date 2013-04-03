@@ -1,0 +1,876 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+        <head>
+          <title>com.github.nscala_time.time.Implicits</title>
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link type="text/css" media="screen" rel="stylesheet" href="../../../../lib/template.css" />
+      <script type="text/javascript" src="../../../../lib/jquery.js"></script>
+      <script type="text/javascript" src="../../../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../../../lib/template.js"></script>
+      <script type="text/javascript" src="../../../../lib/tools.tooltip.js"></script>
+    
+        </head>
+        <body onload="sh_highlightDocument('../lib/', '.min.js');" class="type">
+      <div id="definition">
+        <a title="Go to companion" href="Implicits$.html"><img src="../../../../lib/trait_to_object_big.png" /></a>
+        <p id="owner"><a name="com" class="extype" href="../../../package.html">com</a>.<a name="com.github" class="extype" href="../../package.html">github</a>.<a name="com.github.nscala_time" class="extype" href="../package.html">nscala_time</a>.<a name="com.github.nscala_time.time" class="extype" href="package.html">time</a></p>
+        <h1><a title="Go to companion" href="Implicits$.html">Implicits</a></h1>
+      </div>
+
+      <h4 class="signature" id="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <span class="name">Implicits</span><span class="result"> extends <a name="com.github.nscala_time.time.BuilderImplicits" class="extype" href="BuilderImplicits.html">BuilderImplicits</a> with <a name="com.github.nscala_time.time.IntImplicits" class="extype" href="IntImplicits.html">IntImplicits</a> with <a name="com.github.nscala_time.time.StringImplicits" class="extype" href="StringImplicits.html">StringImplicits</a> with <a name="com.github.nscala_time.time.DateImplicits" class="extype" href="DateImplicits.html">DateImplicits</a> with <a name="com.github.nscala_time.time.OrderingImplicits" class="extype" href="OrderingImplicits.html">OrderingImplicits</a> with <a name="com.github.nscala_time.time.JodaImplicits" class="extype" href="JodaImplicits.html">JodaImplicits</a></span>
+      </span>
+      </h4>
+      
+      <div class="fullcommenttop" id="comment"><div class="toggleContainer block">
+          <span class="toggle">Linear Supertypes</span>
+          <div class="superTypes hiddenContent"><a name="com.github.nscala_time.time.JodaImplicits" class="extype" href="JodaImplicits.html">JodaImplicits</a>, <a name="com.github.nscala_time.time.OrderingImplicits" class="extype" href="OrderingImplicits.html">OrderingImplicits</a>, <a name="com.github.nscala_time.time.LowPriorityOrderingImplicits" class="extype" href="LowPriorityOrderingImplicits.html">LowPriorityOrderingImplicits</a>, <a name="com.github.nscala_time.time.DateImplicits" class="extype" href="DateImplicits.html">DateImplicits</a>, <a name="com.github.nscala_time.time.StringImplicits" class="extype" href="StringImplicits.html">StringImplicits</a>, <a name="com.github.nscala_time.time.IntImplicits" class="extype" href="IntImplicits.html">IntImplicits</a>, <a name="com.github.nscala_time.time.BuilderImplicits" class="extype" href="BuilderImplicits.html">BuilderImplicits</a>, AnyRef, <span name="scala.Any" class="extype">Any</span></div>
+        </div><div class="toggleContainer block">
+          <span class="toggle">Known Subclasses</span>
+          <div class="subClasses hiddenContent"><a name="com.github.nscala_time.time.BuilderImplicits" class="extype" href="BuilderImplicits$.html">BuilderImplicits</a>, <a name="com.github.nscala_time.time.Implicits" class="extype" href="Implicits$.html">Implicits</a>, <a name="com.github.nscala_time.time.Imports" class="extype" href="Imports.html">Imports</a>, <a name="com.github.nscala_time.time.Imports" class="extype" href="Imports$.html">Imports</a></div>
+        </div></div>
+    
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input accesskey="/" type="text" /></span><span class="post"></span></div>
+        <div id="order">
+              <span class="filtertype">Ordering</span>
+              <ol><li class="alpha in"><span>Alphabetic</span></li><li class="inherit out"><span>By inheritance</span></li></ol>
+            </div>
+        <div id="ancestors">
+              <span class="filtertype">Inherited</span>
+              <ol><li class="hideall out"><span>Hide All</span></li>
+              <li class="showall in"><span>Show all</span></li></ol>
+              <ol id="linearization"><li name="com.github.nscala_time.time.Implicits" class="in"><span>Implicits</span></li><li name="com.github.nscala_time.time.JodaImplicits" class="in"><span>JodaImplicits</span></li><li name="com.github.nscala_time.time.OrderingImplicits" class="in"><span>OrderingImplicits</span></li><li name="com.github.nscala_time.time.LowPriorityOrderingImplicits" class="in"><span>LowPriorityOrderingImplicits</span></li><li name="com.github.nscala_time.time.DateImplicits" class="in"><span>DateImplicits</span></li><li name="com.github.nscala_time.time.StringImplicits" class="in"><span>StringImplicits</span></li><li name="com.github.nscala_time.time.IntImplicits" class="in"><span>IntImplicits</span></li><li name="com.github.nscala_time.time.BuilderImplicits" class="in"><span>BuilderImplicits</span></li><li name="scala.AnyRef" class="in"><span>AnyRef</span></li><li name="scala.Any" class="in"><span>Any</span></li></ol>
+            </div>
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        
+
+        
+
+        <div class="values members" id="values">
+              <h3>Value Members</h3>
+              <ol><li visbl="pub" name="scala.AnyRef#!=" data-isabs="false">
+      <a id="!=(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name" title="gt4s: $bang$eq">!=</span><span class="params">(<span name="arg0">arg0: AnyRef</span>)</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li visbl="pub" name="scala.Any#!=" data-isabs="false">
+      <a id="!=(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name" title="gt4s: $bang$eq">!=</span><span class="params">(<span name="arg0">arg0: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef###" data-isabs="false">
+      <a id="##():Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name" title="gt4s: $hash$hash">##</span><span class="params">()</span><span class="result">: <span name="scala.Int" class="extype">Int</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#==" data-isabs="false">
+      <a id="==(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name" title="gt4s: $eq$eq">==</span><span class="params">(<span name="arg0">arg0: AnyRef</span>)</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li visbl="pub" name="scala.Any#==" data-isabs="false">
+      <a id="==(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name" title="gt4s: $eq$eq">==</span><span class="params">(<span name="arg0">arg0: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.LowPriorityOrderingImplicits#BaseSingleFieldPeriodOrdering" data-isabs="false">
+      <a id="BaseSingleFieldPeriodOrdering[A&lt;:BaseSingleFieldPeriod]:Ordering[A]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">BaseSingleFieldPeriodOrdering</span><span class="tparams">[<span name="A">A &lt;: <span name="org.joda.time.base.BaseSingleFieldPeriod" class="extype">BaseSingleFieldPeriod</span></span>]</span><span class="result">: Ordering[A]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.LowPriorityOrderingImplicits" class="extype" href="LowPriorityOrderingImplicits.html">LowPriorityOrderingImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.OrderingImplicits#DateTimeOrdering" data-isabs="false">
+      <a id="DateTimeOrdering:Ordering[DateTime]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">DateTimeOrdering</span><span class="result">: Ordering[<span name="org.joda.time.DateTime" class="extype">DateTime</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.OrderingImplicits" class="extype" href="OrderingImplicits.html">OrderingImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.OrderingImplicits#DurationOrdering" data-isabs="false">
+      <a id="DurationOrdering:Ordering[Duration]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">DurationOrdering</span><span class="result">: Ordering[<span name="org.joda.time.Duration" class="extype">Duration</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.OrderingImplicits" class="extype" href="OrderingImplicits.html">OrderingImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.OrderingImplicits#LocalDateOrdering" data-isabs="false">
+      <a id="LocalDateOrdering:Ordering[LocalDate]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">LocalDateOrdering</span><span class="result">: Ordering[<span name="org.joda.time.LocalDate" class="extype">LocalDate</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.OrderingImplicits" class="extype" href="OrderingImplicits.html">OrderingImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.OrderingImplicits#LocalDateTimeOrdering" data-isabs="false">
+      <a id="LocalDateTimeOrdering:Ordering[LocalDateTime]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">LocalDateTimeOrdering</span><span class="result">: Ordering[<span name="org.joda.time.LocalDateTime" class="extype">LocalDateTime</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.OrderingImplicits" class="extype" href="OrderingImplicits.html">OrderingImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.OrderingImplicits#LocalTimeOrdering" data-isabs="false">
+      <a id="LocalTimeOrdering:Ordering[LocalTime]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">LocalTimeOrdering</span><span class="result">: Ordering[<span name="org.joda.time.LocalTime" class="extype">LocalTime</span>]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.OrderingImplicits" class="extype" href="OrderingImplicits.html">OrderingImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.LowPriorityOrderingImplicits#ReadableDurationOrdering" data-isabs="false">
+      <a id="ReadableDurationOrdering[A&lt;:ReadableDuration]:Ordering[A]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ReadableDurationOrdering</span><span class="tparams">[<span name="A">A &lt;: <span name="org.joda.time.ReadableDuration" class="extype">ReadableDuration</span></span>]</span><span class="result">: Ordering[A]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.LowPriorityOrderingImplicits" class="extype" href="LowPriorityOrderingImplicits.html">LowPriorityOrderingImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.LowPriorityOrderingImplicits#ReadableInstantOrdering" data-isabs="false">
+      <a id="ReadableInstantOrdering[A&lt;:ReadableInstant]:Ordering[A]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ReadableInstantOrdering</span><span class="tparams">[<span name="A">A &lt;: <span name="org.joda.time.ReadableInstant" class="extype">ReadableInstant</span></span>]</span><span class="result">: Ordering[A]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.LowPriorityOrderingImplicits" class="extype" href="LowPriorityOrderingImplicits.html">LowPriorityOrderingImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.LowPriorityOrderingImplicits#ReadablePartialOrdering" data-isabs="false">
+      <a id="ReadablePartialOrdering[A&lt;:ReadablePartial]:Ordering[A]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ReadablePartialOrdering</span><span class="tparams">[<span name="A">A &lt;: <span name="org.joda.time.ReadablePartial" class="extype">ReadablePartial</span></span>]</span><span class="result">: Ordering[A]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.LowPriorityOrderingImplicits" class="extype" href="LowPriorityOrderingImplicits.html">LowPriorityOrderingImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.JodaImplicits#RichAbstractDateTime" data-isabs="false">
+      <a id="RichAbstractDateTime(AbstractDateTime):RichAbstractDateTime"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RichAbstractDateTime</span><span class="params">(<span name="dt">dt: <span name="org.joda.time.base.AbstractDateTime" class="extype">AbstractDateTime</span></span>)</span><span class="result">: <a name="com.github.nscala_time.time.RichAbstractDateTime" class="extype" href="RichAbstractDateTime.html">RichAbstractDateTime</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.JodaImplicits" class="extype" href="JodaImplicits.html">JodaImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.JodaImplicits#RichAbstractInstant" data-isabs="false">
+      <a id="RichAbstractInstant(AbstractInstant):RichAbstractInstant"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RichAbstractInstant</span><span class="params">(<span name="in">in: <span name="org.joda.time.base.AbstractInstant" class="extype">AbstractInstant</span></span>)</span><span class="result">: <a name="com.github.nscala_time.time.RichAbstractInstant" class="extype" href="RichAbstractInstant.html">RichAbstractInstant</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.JodaImplicits" class="extype" href="JodaImplicits.html">JodaImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.JodaImplicits#RichAbstractPartial" data-isabs="false">
+      <a id="RichAbstractPartial(AbstractPartial):RichAbstractPartial"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RichAbstractPartial</span><span class="params">(<span name="pt">pt: <span name="org.joda.time.base.AbstractPartial" class="extype">AbstractPartial</span></span>)</span><span class="result">: <a name="com.github.nscala_time.time.RichAbstractPartial" class="extype" href="RichAbstractPartial.html">RichAbstractPartial</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.JodaImplicits" class="extype" href="JodaImplicits.html">JodaImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.JodaImplicits#RichAbstractReadableInstantFieldProperty" data-isabs="false">
+      <a id="RichAbstractReadableInstantFieldProperty(AbstractReadableInstantFieldProperty):RichAbstractReadableInstantFieldProperty"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RichAbstractReadableInstantFieldProperty</span><span class="params">(<span name="pty">pty: <span name="org.joda.time.field.AbstractReadableInstantFieldProperty" class="extype">AbstractReadableInstantFieldProperty</span></span>)</span><span class="result">: <a name="com.github.nscala_time.time.RichAbstractReadableInstantFieldProperty" class="extype" href="RichAbstractReadableInstantFieldProperty.html">RichAbstractReadableInstantFieldProperty</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.JodaImplicits" class="extype" href="JodaImplicits.html">JodaImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.JodaImplicits#RichChronology" data-isabs="false">
+      <a id="RichChronology(Chronology):RichChronology"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RichChronology</span><span class="params">(<span name="ch">ch: <span name="org.joda.time.Chronology" class="extype">Chronology</span></span>)</span><span class="result">: <a name="com.github.nscala_time.time.RichChronology" class="extype" href="RichChronology.html">RichChronology</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.JodaImplicits" class="extype" href="JodaImplicits.html">JodaImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.DateImplicits#RichDate" data-isabs="false">
+      <a id="RichDate(Date):RichDate"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RichDate</span><span class="params">(<span name="d">d: <span name="java.util.Date" class="extype">Date</span></span>)</span><span class="result">: <a name="com.github.nscala_time.time.RichDate" class="extype" href="RichDate.html">RichDate</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.DateImplicits" class="extype" href="DateImplicits.html">DateImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.JodaImplicits#RichDateMidnight" data-isabs="false">
+      <a id="RichDateMidnight(DateMidnight):RichDateMidnight"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RichDateMidnight</span><span class="params">(<span name="dm">dm: <span name="org.joda.time.DateMidnight" class="extype">DateMidnight</span></span>)</span><span class="result">: <a name="com.github.nscala_time.time.RichDateMidnight" class="extype" href="RichDateMidnight.html">RichDateMidnight</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.JodaImplicits" class="extype" href="JodaImplicits.html">JodaImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.JodaImplicits#RichDateTime" data-isabs="false">
+      <a id="RichDateTime(DateTime):RichDateTime"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RichDateTime</span><span class="params">(<span name="dt">dt: <span name="org.joda.time.DateTime" class="extype">DateTime</span></span>)</span><span class="result">: <a name="com.github.nscala_time.time.RichDateTime" class="extype" href="RichDateTime.html">RichDateTime</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.JodaImplicits" class="extype" href="JodaImplicits.html">JodaImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.JodaImplicits#RichDateTimeFormatter" data-isabs="false">
+      <a id="RichDateTimeFormatter(DateTimeFormatter):RichDateTimeFormatter"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RichDateTimeFormatter</span><span class="params">(<span name="fmt">fmt: <span name="org.joda.time.format.DateTimeFormatter" class="extype">DateTimeFormatter</span></span>)</span><span class="result">: <a name="com.github.nscala_time.time.RichDateTimeFormatter" class="extype" href="RichDateTimeFormatter.html">RichDateTimeFormatter</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.JodaImplicits" class="extype" href="JodaImplicits.html">JodaImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.JodaImplicits#RichDateTimeProperty" data-isabs="false">
+      <a id="RichDateTimeProperty(Property):RichDateTimeProperty"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RichDateTimeProperty</span><span class="params">(<span name="pty">pty: <span name="org.joda.time.DateTime.Property" class="extype">Property</span></span>)</span><span class="result">: <a name="com.github.nscala_time.time.RichDateTimeProperty" class="extype" href="RichDateTimeProperty.html">RichDateTimeProperty</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.JodaImplicits" class="extype" href="JodaImplicits.html">JodaImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.JodaImplicits#RichDateTimeZone" data-isabs="false">
+      <a id="RichDateTimeZone(DateTimeZone):RichDateTimeZone"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RichDateTimeZone</span><span class="params">(<span name="zone">zone: <span name="org.joda.time.DateTimeZone" class="extype">DateTimeZone</span></span>)</span><span class="result">: <a name="com.github.nscala_time.time.RichDateTimeZone" class="extype" href="RichDateTimeZone.html">RichDateTimeZone</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.JodaImplicits" class="extype" href="JodaImplicits.html">JodaImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.JodaImplicits#RichDuration" data-isabs="false">
+      <a id="RichDuration(Duration):RichDuration"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RichDuration</span><span class="params">(<span name="dur">dur: <span name="org.joda.time.Duration" class="extype">Duration</span></span>)</span><span class="result">: <a name="com.github.nscala_time.time.RichDuration" class="extype" href="RichDuration.html">RichDuration</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.JodaImplicits" class="extype" href="JodaImplicits.html">JodaImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.JodaImplicits#RichInstant" data-isabs="false">
+      <a id="RichInstant(Instant):RichInstant"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RichInstant</span><span class="params">(<span name="in">in: <span name="org.joda.time.Instant" class="extype">Instant</span></span>)</span><span class="result">: <a name="com.github.nscala_time.time.RichInstant" class="extype" href="RichInstant.html">RichInstant</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.JodaImplicits" class="extype" href="JodaImplicits.html">JodaImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.IntImplicits#RichInt" data-isabs="false">
+      <a id="RichInt(Int):RichInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RichInt</span><span class="params">(<span name="n">n: <span name="scala.Int" class="extype">Int</span></span>)</span><span class="result">: <a name="com.github.nscala_time.time.RichInt" class="extype" href="RichInt.html">RichInt</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.IntImplicits" class="extype" href="IntImplicits.html">IntImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.JodaImplicits#RichLocalDate" data-isabs="false">
+      <a id="RichLocalDate(LocalDate):RichLocalDate"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RichLocalDate</span><span class="params">(<span name="ld">ld: <span name="org.joda.time.LocalDate" class="extype">LocalDate</span></span>)</span><span class="result">: <a name="com.github.nscala_time.time.RichLocalDate" class="extype" href="RichLocalDate.html">RichLocalDate</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.JodaImplicits" class="extype" href="JodaImplicits.html">JodaImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.JodaImplicits#RichLocalDateProperty" data-isabs="false">
+      <a id="RichLocalDateProperty(Property):RichLocalDateProperty"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RichLocalDateProperty</span><span class="params">(<span name="pty">pty: <span name="org.joda.time.LocalDate.Property" class="extype">Property</span></span>)</span><span class="result">: <a name="com.github.nscala_time.time.RichLocalDateProperty" class="extype" href="RichLocalDateProperty.html">RichLocalDateProperty</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.JodaImplicits" class="extype" href="JodaImplicits.html">JodaImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.JodaImplicits#RichLocalDateTime" data-isabs="false">
+      <a id="RichLocalDateTime(LocalDateTime):RichLocalDateTime"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RichLocalDateTime</span><span class="params">(<span name="dt">dt: <span name="org.joda.time.LocalDateTime" class="extype">LocalDateTime</span></span>)</span><span class="result">: <a name="com.github.nscala_time.time.RichLocalDateTime" class="extype" href="RichLocalDateTime.html">RichLocalDateTime</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.JodaImplicits" class="extype" href="JodaImplicits.html">JodaImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.JodaImplicits#RichLocalDateTimeProperty" data-isabs="false">
+      <a id="RichLocalDateTimeProperty(Property):RichLocalDateTimeProperty"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RichLocalDateTimeProperty</span><span class="params">(<span name="pty">pty: <span name="org.joda.time.LocalDateTime.Property" class="extype">Property</span></span>)</span><span class="result">: <a name="com.github.nscala_time.time.RichLocalDateTimeProperty" class="extype" href="RichLocalDateTimeProperty.html">RichLocalDateTimeProperty</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.JodaImplicits" class="extype" href="JodaImplicits.html">JodaImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.JodaImplicits#RichLocalTime" data-isabs="false">
+      <a id="RichLocalTime(LocalTime):RichLocalTime"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RichLocalTime</span><span class="params">(<span name="lt">lt: <span name="org.joda.time.LocalTime" class="extype">LocalTime</span></span>)</span><span class="result">: <a name="com.github.nscala_time.time.RichLocalTime" class="extype" href="RichLocalTime.html">RichLocalTime</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.JodaImplicits" class="extype" href="JodaImplicits.html">JodaImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.JodaImplicits#RichLocalTimeProperty" data-isabs="false">
+      <a id="RichLocalTimeProperty(Property):RichLocalTimeProperty"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RichLocalTimeProperty</span><span class="params">(<span name="pty">pty: <span name="org.joda.time.LocalTime.Property" class="extype">Property</span></span>)</span><span class="result">: <a name="com.github.nscala_time.time.RichLocalTimeProperty" class="extype" href="RichLocalTimeProperty.html">RichLocalTimeProperty</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.JodaImplicits" class="extype" href="JodaImplicits.html">JodaImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.IntImplicits#RichLong" data-isabs="false">
+      <a id="RichLong(Long):RichLong"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RichLong</span><span class="params">(<span name="n">n: <span name="scala.Long" class="extype">Long</span></span>)</span><span class="result">: <a name="com.github.nscala_time.time.RichLong" class="extype" href="RichLong.html">RichLong</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.IntImplicits" class="extype" href="IntImplicits.html">IntImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.JodaImplicits#RichPartial" data-isabs="false">
+      <a id="RichPartial(Partial):RichPartial"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RichPartial</span><span class="params">(<span name="pt">pt: <span name="org.joda.time.Partial" class="extype">Partial</span></span>)</span><span class="result">: <a name="com.github.nscala_time.time.RichPartial" class="extype" href="RichPartial.html">RichPartial</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.JodaImplicits" class="extype" href="JodaImplicits.html">JodaImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.JodaImplicits#RichPartialProperty" data-isabs="false">
+      <a id="RichPartialProperty(Property):RichPartialProperty"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RichPartialProperty</span><span class="params">(<span name="pty">pty: <span name="org.joda.time.Partial.Property" class="extype">Property</span></span>)</span><span class="result">: <a name="com.github.nscala_time.time.RichPartialProperty" class="extype" href="RichPartialProperty.html">RichPartialProperty</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.JodaImplicits" class="extype" href="JodaImplicits.html">JodaImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.JodaImplicits#RichPeriod" data-isabs="false">
+      <a id="RichPeriod(Period):RichPeriod"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RichPeriod</span><span class="params">(<span name="per">per: <span name="org.joda.time.Period" class="extype">Period</span></span>)</span><span class="result">: <a name="com.github.nscala_time.time.RichPeriod" class="extype" href="RichPeriod.html">RichPeriod</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.JodaImplicits" class="extype" href="JodaImplicits.html">JodaImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.JodaImplicits#RichReadableDateTime" data-isabs="false">
+      <a id="RichReadableDateTime(ReadableDateTime):RichReadableDateTime"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RichReadableDateTime</span><span class="params">(<span name="dt">dt: <span name="org.joda.time.ReadableDateTime" class="extype">ReadableDateTime</span></span>)</span><span class="result">: <a name="com.github.nscala_time.time.RichReadableDateTime" class="extype" href="RichReadableDateTime.html">RichReadableDateTime</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.JodaImplicits" class="extype" href="JodaImplicits.html">JodaImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.JodaImplicits#RichReadableDuration" data-isabs="false">
+      <a id="RichReadableDuration(ReadableDuration):RichReadableDuration"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RichReadableDuration</span><span class="params">(<span name="dur">dur: <span name="org.joda.time.ReadableDuration" class="extype">ReadableDuration</span></span>)</span><span class="result">: <a name="com.github.nscala_time.time.RichReadableDuration" class="extype" href="RichReadableDuration.html">RichReadableDuration</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.JodaImplicits" class="extype" href="JodaImplicits.html">JodaImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.JodaImplicits#RichReadableInstant" data-isabs="false">
+      <a id="RichReadableInstant(ReadableInstant):RichReadableInstant"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RichReadableInstant</span><span class="params">(<span name="in">in: <span name="org.joda.time.ReadableInstant" class="extype">ReadableInstant</span></span>)</span><span class="result">: <a name="com.github.nscala_time.time.RichReadableInstant" class="extype" href="RichReadableInstant.html">RichReadableInstant</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.JodaImplicits" class="extype" href="JodaImplicits.html">JodaImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.JodaImplicits#RichReadableInterval" data-isabs="false">
+      <a id="RichReadableInterval(ReadableInterval):RichReadableInterval"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RichReadableInterval</span><span class="params">(<span name="in">in: <span name="org.joda.time.ReadableInterval" class="extype">ReadableInterval</span></span>)</span><span class="result">: <a name="com.github.nscala_time.time.RichReadableInterval" class="extype" href="RichReadableInterval.html">RichReadableInterval</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.JodaImplicits" class="extype" href="JodaImplicits.html">JodaImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.JodaImplicits#RichReadablePartial" data-isabs="false">
+      <a id="RichReadablePartial(ReadablePartial):RichReadablePartial"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RichReadablePartial</span><span class="params">(<span name="rp">rp: <span name="org.joda.time.ReadablePartial" class="extype">ReadablePartial</span></span>)</span><span class="result">: <a name="com.github.nscala_time.time.RichReadablePartial" class="extype" href="RichReadablePartial.html">RichReadablePartial</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.JodaImplicits" class="extype" href="JodaImplicits.html">JodaImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.JodaImplicits#RichReadablePeriod" data-isabs="false">
+      <a id="RichReadablePeriod(ReadablePeriod):RichReadablePeriod"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RichReadablePeriod</span><span class="params">(<span name="per">per: <span name="org.joda.time.ReadablePeriod" class="extype">ReadablePeriod</span></span>)</span><span class="result">: <a name="com.github.nscala_time.time.RichReadablePeriod" class="extype" href="RichReadablePeriod.html">RichReadablePeriod</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.JodaImplicits" class="extype" href="JodaImplicits.html">JodaImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.StringImplicits#RichString" data-isabs="false">
+      <a id="RichString(String):RichString"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">RichString</span><span class="params">(<span name="s">s: String</span>)</span><span class="result">: <a name="com.github.nscala_time.time.RichString" class="extype" href="RichString.html">RichString</a></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.StringImplicits" class="extype" href="StringImplicits.html">StringImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="scala.Any#asInstanceOf" data-isabs="false">
+      <a id="asInstanceOf[T0]:T0"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">asInstanceOf</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="result">: T0</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li visbl="prt" name="scala.AnyRef#clone" data-isabs="false">
+      <a id="clone():AnyRef"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">clone</span><span class="params">()</span><span class="result">: AnyRef</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a name="java.lang" class="extype" href="../../../../java/lang/package.html">lang</a>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#eq" data-isabs="false">
+      <a id="eq(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">eq</span><span class="params">(<span name="arg0">arg0: AnyRef</span>)</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#equals" data-isabs="false">
+      <a id="equals(Any):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">equals</span><span class="params">(<span name="arg0">arg0: <span name="scala.Any" class="extype">Any</span></span>)</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li visbl="prt" name="scala.AnyRef#finalize" data-isabs="false">
+      <a id="finalize():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">finalize</span><span class="params">()</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Attributes</dt><dd>protected[<a name="java.lang" class="extype" href="../../../../java/lang/package.html">lang</a>] </dd><dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.BuilderImplicits#forceDuration" data-isabs="false">
+      <a id="forceDuration(DurationBuilder):Duration"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">forceDuration</span><span class="params">(<span name="builder">builder: <span name="com.github.nscala_time.time.DurationBuilder" class="extype">DurationBuilder</span></span>)</span><span class="result">: <span name="org.joda.time.Duration" class="extype">Duration</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.BuilderImplicits" class="extype" href="BuilderImplicits.html">BuilderImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="com.github.nscala_time.time.BuilderImplicits#forcePeriod" data-isabs="false">
+      <a id="forcePeriod(DurationBuilder):Period"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">forcePeriod</span><span class="params">(<span name="builder">builder: <span name="com.github.nscala_time.time.DurationBuilder" class="extype">DurationBuilder</span></span>)</span><span class="result">: <span name="org.joda.time.Period" class="extype">Period</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd><a name="com.github.nscala_time.time.BuilderImplicits" class="extype" href="BuilderImplicits.html">BuilderImplicits</a></dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#getClass" data-isabs="false">
+      <a id="getClass():java.lang.Class[_]"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">getClass</span><span class="params">()</span><span class="result">: java.lang.Class[_]</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#hashCode" data-isabs="false">
+      <a id="hashCode():Int"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">hashCode</span><span class="params">()</span><span class="result">: <span name="scala.Int" class="extype">Int</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li visbl="pub" name="scala.Any#isInstanceOf" data-isabs="false">
+      <a id="isInstanceOf[T0]:Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">isInstanceOf</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#ne" data-isabs="false">
+      <a id="ne(AnyRef):Boolean"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">ne</span><span class="params">(<span name="arg0">arg0: AnyRef</span>)</span><span class="result">: <span name="scala.Boolean" class="extype">Boolean</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#notify" data-isabs="false">
+      <a id="notify():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">notify</span><span class="params">()</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#notifyAll" data-isabs="false">
+      <a id="notifyAll():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">notifyAll</span><span class="params">()</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#synchronized" data-isabs="false">
+      <a id="synchronized[T0](⇒ T0):T0"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">synchronized</span><span class="tparams">[<span name="T0">T0</span>]</span><span class="params">(<span name="arg0">arg0: ⇒ T0</span>)</span><span class="result">: T0</span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#toString" data-isabs="false">
+      <a id="toString():String"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">toString</span><span class="params">()</span><span class="result">: <span name="java.lang.String" class="extype">String</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef → Any</dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#wait" data-isabs="false">
+      <a id="wait():Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">()</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#wait" data-isabs="false">
+      <a id="wait(Long,Int):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">(<span name="arg0">arg0: <span name="scala.Long" class="extype">Long</span></span>, <span name="arg1">arg1: <span name="scala.Int" class="extype">Int</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li><li visbl="pub" name="scala.AnyRef#wait" data-isabs="false">
+      <a id="wait(Long):Unit"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier">final </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">wait</span><span class="params">(<span name="arg0">arg0: <span name="scala.Long" class="extype">Long</span></span>)</span><span class="result">: <span name="scala.Unit" class="extype">Unit</span></span>
+      </span>
+      </h4>
+      <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>AnyRef</dd><dt>Annotations</dt><dd>
+                <span class="name">@throws</span><span class="args">()</span>
+              
+        </dd></dl></div>
+    </li></ol>
+            </div>
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        <div name="com.github.nscala_time.time.JodaImplicits" class="parent">
+              <h3>Inherited from <a name="com.github.nscala_time.time.JodaImplicits" class="extype" href="JodaImplicits.html">JodaImplicits</a></h3>
+            </div><div name="com.github.nscala_time.time.OrderingImplicits" class="parent">
+              <h3>Inherited from <a name="com.github.nscala_time.time.OrderingImplicits" class="extype" href="OrderingImplicits.html">OrderingImplicits</a></h3>
+            </div><div name="com.github.nscala_time.time.LowPriorityOrderingImplicits" class="parent">
+              <h3>Inherited from <a name="com.github.nscala_time.time.LowPriorityOrderingImplicits" class="extype" href="LowPriorityOrderingImplicits.html">LowPriorityOrderingImplicits</a></h3>
+            </div><div name="com.github.nscala_time.time.DateImplicits" class="parent">
+              <h3>Inherited from <a name="com.github.nscala_time.time.DateImplicits" class="extype" href="DateImplicits.html">DateImplicits</a></h3>
+            </div><div name="com.github.nscala_time.time.StringImplicits" class="parent">
+              <h3>Inherited from <a name="com.github.nscala_time.time.StringImplicits" class="extype" href="StringImplicits.html">StringImplicits</a></h3>
+            </div><div name="com.github.nscala_time.time.IntImplicits" class="parent">
+              <h3>Inherited from <a name="com.github.nscala_time.time.IntImplicits" class="extype" href="IntImplicits.html">IntImplicits</a></h3>
+            </div><div name="com.github.nscala_time.time.BuilderImplicits" class="parent">
+              <h3>Inherited from <a name="com.github.nscala_time.time.BuilderImplicits" class="extype" href="BuilderImplicits.html">BuilderImplicits</a></h3>
+            </div><div name="scala.AnyRef" class="parent">
+              <h3>Inherited from AnyRef</h3>
+            </div><div name="scala.Any" class="parent">
+              <h3>Inherited from <span name="scala.Any" class="extype">Any</span></h3>
+            </div>
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>

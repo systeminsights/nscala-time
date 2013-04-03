@@ -1,0 +1,928 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+        <head>
+          <title>com.github.nscala_time.time</title>
+          <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+          
+      <link type="text/css" media="screen" rel="stylesheet" href="../../../../lib/template.css" />
+      <script type="text/javascript" src="../../../../lib/jquery.js"></script>
+      <script type="text/javascript" src="../../../../lib/jquery-ui.js"></script>
+      <script type="text/javascript" src="../../../../lib/template.js"></script>
+      <script type="text/javascript" src="../../../../lib/tools.tooltip.js"></script>
+    
+        </head>
+        <body onload="sh_highlightDocument('../lib/', '.min.js');" class="value">
+      <div id="definition">
+        <img src="../../../../lib/package_big.png" />
+        <p id="owner"><a name="com" class="extype" href="../../../package.html">com</a>.<a name="com.github" class="extype" href="../../package.html">github</a>.<a name="com.github.nscala_time" class="extype" href="../package.html">nscala_time</a></p>
+        <h1>time</h1>
+      </div>
+
+      <h4 class="signature" id="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">package</span>
+      </span>
+      <span class="symbol">
+        <span class="name">time</span>
+      </span>
+      </h4>
+      
+      <div class="fullcommenttop" id="comment"></div>
+    
+
+      <div id="mbrsel">
+        <div id="textfilter"><span class="pre"></span><span class="input"><input accesskey="/" type="text" /></span><span class="post"></span></div>
+        
+        
+        <div id="visbl">
+            <span class="filtertype">Visibility</span>
+            <ol><li class="public in"><span>Public</span></li><li class="all out"><span>All</span></li></ol>
+          </div>
+      </div>
+
+      <div id="template">
+        <div id="allMembers">
+        
+
+        <div class="types members" id="types">
+              <h3>Type Members</h3>
+              <ol><li visbl="pub" name="com.github.nscala_time.time.BuilderImplicits" data-isabs="true">
+      <a id="BuilderImplicits:BuilderImplicits"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="BuilderImplicits.html"><span class="name">BuilderImplicits</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.DateImplicits" data-isabs="true">
+      <a id="DateImplicits:DateImplicits"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="DateImplicits.html"><span class="name">DateImplicits</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.Implicits" data-isabs="true">
+      <a id="Implicits:Implicits"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Implicits.html"><span class="name">Implicits</span></a><span class="result"> extends BuilderImplicits with IntImplicits with StringImplicits with DateImplicits with OrderingImplicits with JodaImplicits</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.Imports" data-isabs="true">
+      <a id="Imports:Imports"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="Imports.html"><span class="name">Imports</span></a><span class="result"> extends TypeImports with StaticForwarderImports with Implicits</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.IntImplicits" data-isabs="true">
+      <a id="IntImplicits:IntImplicits"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="IntImplicits.html"><span class="name">IntImplicits</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.JodaImplicits" data-isabs="true">
+      <a id="JodaImplicits:JodaImplicits"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="JodaImplicits.html"><span class="name">JodaImplicits</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.LowPriorityOrderingImplicits" data-isabs="true">
+      <a id="LowPriorityOrderingImplicits:LowPriorityOrderingImplicits"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="LowPriorityOrderingImplicits.html"><span class="name">LowPriorityOrderingImplicits</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.OrderingImplicits" data-isabs="true">
+      <a id="OrderingImplicits:OrderingImplicits"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="OrderingImplicits.html"><span class="name">OrderingImplicits</span></a><span class="result"> extends LowPriorityOrderingImplicits</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.RichAbstractDateTime" data-isabs="false">
+      <a id="RichAbstractDateTime:RichAbstractDateTime"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RichAbstractDateTime.html"><span class="name">RichAbstractDateTime</span></a><span class="result"> extends PimpedType[AbstractDateTime]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.RichAbstractInstant" data-isabs="false">
+      <a id="RichAbstractInstant:RichAbstractInstant"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RichAbstractInstant.html"><span class="name">RichAbstractInstant</span></a><span class="result"> extends PimpedType[AbstractInstant]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.RichAbstractPartial" data-isabs="false">
+      <a id="RichAbstractPartial:RichAbstractPartial"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RichAbstractPartial.html"><span class="name">RichAbstractPartial</span></a><span class="result"> extends Ordered[AbstractPartial] with PimpedType[AbstractPartial]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.RichAbstractReadableInstantFieldProperty" data-isabs="false">
+      <a id="RichAbstractReadableInstantFieldProperty:RichAbstractReadableInstantFieldProperty"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RichAbstractReadableInstantFieldProperty.html"><span class="name">RichAbstractReadableInstantFieldProperty</span></a><span class="result"> extends PimpedType[AbstractReadableInstantFieldProperty]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.RichChronology" data-isabs="false">
+      <a id="RichChronology:RichChronology"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RichChronology.html"><span class="name">RichChronology</span></a><span class="result"> extends PimpedType[Chronology]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.RichDate" data-isabs="false">
+      <a id="RichDate:RichDate"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RichDate.html"><span class="name">RichDate</span></a><span class="result"> extends PimpedType[Date]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.RichDateMidnight" data-isabs="false">
+      <a id="RichDateMidnight:RichDateMidnight"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RichDateMidnight.html"><span class="name">RichDateMidnight</span></a><span class="result"> extends PimpedType[DateMidnight]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.RichDateTime" data-isabs="false">
+      <a id="RichDateTime:RichDateTime"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RichDateTime.html"><span class="name">RichDateTime</span></a><span class="result"> extends PimpedType[DateTime]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.RichDateTimeFormatter" data-isabs="false">
+      <a id="RichDateTimeFormatter:RichDateTimeFormatter"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RichDateTimeFormatter.html"><span class="name">RichDateTimeFormatter</span></a><span class="result"> extends PimpedType[DateTimeFormatter]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.RichDateTimeProperty" data-isabs="false">
+      <a id="RichDateTimeProperty:RichDateTimeProperty"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RichDateTimeProperty.html"><span class="name">RichDateTimeProperty</span></a><span class="result"> extends PimpedType[Property]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.RichDateTimeZone" data-isabs="false">
+      <a id="RichDateTimeZone:RichDateTimeZone"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RichDateTimeZone.html"><span class="name">RichDateTimeZone</span></a><span class="result"> extends PimpedType[DateTimeZone]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.RichDuration" data-isabs="false">
+      <a id="RichDuration:RichDuration"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RichDuration.html"><span class="name">RichDuration</span></a><span class="result"> extends PimpedType[Duration]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.RichInstant" data-isabs="false">
+      <a id="RichInstant:RichInstant"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RichInstant.html"><span class="name">RichInstant</span></a><span class="result"> extends PimpedType[Instant]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.RichInt" data-isabs="false">
+      <a id="RichInt:RichInt"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RichInt.html"><span class="name">RichInt</span></a><span class="result"> extends PimpedType[Int]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.RichLocalDate" data-isabs="false">
+      <a id="RichLocalDate:RichLocalDate"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RichLocalDate.html"><span class="name">RichLocalDate</span></a><span class="result"> extends PimpedType[LocalDate]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.RichLocalDateProperty" data-isabs="false">
+      <a id="RichLocalDateProperty:RichLocalDateProperty"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RichLocalDateProperty.html"><span class="name">RichLocalDateProperty</span></a><span class="result"> extends PimpedType[Property]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.RichLocalDateTime" data-isabs="false">
+      <a id="RichLocalDateTime:RichLocalDateTime"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RichLocalDateTime.html"><span class="name">RichLocalDateTime</span></a><span class="result"> extends PimpedType[LocalDateTime]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.RichLocalDateTimeProperty" data-isabs="false">
+      <a id="RichLocalDateTimeProperty:RichLocalDateTimeProperty"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RichLocalDateTimeProperty.html"><span class="name">RichLocalDateTimeProperty</span></a><span class="result"> extends PimpedType[Property]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.RichLocalTime" data-isabs="false">
+      <a id="RichLocalTime:RichLocalTime"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RichLocalTime.html"><span class="name">RichLocalTime</span></a><span class="result"> extends PimpedType[LocalTime]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.RichLocalTimeProperty" data-isabs="false">
+      <a id="RichLocalTimeProperty:RichLocalTimeProperty"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RichLocalTimeProperty.html"><span class="name">RichLocalTimeProperty</span></a><span class="result"> extends PimpedType[Property]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.RichLong" data-isabs="false">
+      <a id="RichLong:RichLong"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RichLong.html"><span class="name">RichLong</span></a><span class="result"> extends PimpedType[Long]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.RichPartial" data-isabs="false">
+      <a id="RichPartial:RichPartial"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RichPartial.html"><span class="name">RichPartial</span></a><span class="result"> extends PimpedType[Partial]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.RichPartialProperty" data-isabs="false">
+      <a id="RichPartialProperty:RichPartialProperty"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RichPartialProperty.html"><span class="name">RichPartialProperty</span></a><span class="result"> extends PimpedType[Property]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.RichPeriod" data-isabs="false">
+      <a id="RichPeriod:RichPeriod"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RichPeriod.html"><span class="name">RichPeriod</span></a><span class="result"> extends PimpedType[Period]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.RichReadableDateTime" data-isabs="false">
+      <a id="RichReadableDateTime:RichReadableDateTime"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RichReadableDateTime.html"><span class="name">RichReadableDateTime</span></a><span class="result"> extends PimpedType[ReadableDateTime]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.RichReadableDuration" data-isabs="false">
+      <a id="RichReadableDuration:RichReadableDuration"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RichReadableDuration.html"><span class="name">RichReadableDuration</span></a><span class="result"> extends Ordered[ReadableDuration] with PimpedType[ReadableDuration]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.RichReadableInstant" data-isabs="false">
+      <a id="RichReadableInstant:RichReadableInstant"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RichReadableInstant.html"><span class="name">RichReadableInstant</span></a><span class="result"> extends Ordered[ReadableInstant] with PimpedType[ReadableInstant]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.RichReadableInterval" data-isabs="false">
+      <a id="RichReadableInterval:RichReadableInterval"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RichReadableInterval.html"><span class="name">RichReadableInterval</span></a><span class="result"> extends PimpedType[ReadableInterval]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.RichReadablePartial" data-isabs="false">
+      <a id="RichReadablePartial:RichReadablePartial"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RichReadablePartial.html"><span class="name">RichReadablePartial</span></a><span class="result"> extends PimpedType[ReadablePartial]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.RichReadablePeriod" data-isabs="false">
+      <a id="RichReadablePeriod:RichReadablePeriod"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RichReadablePeriod.html"><span class="name">RichReadablePeriod</span></a><span class="result"> extends PimpedType[ReadablePeriod]</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.RichString" data-isabs="false">
+      <a id="RichString:RichString"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">class</span>
+      </span>
+      <span class="symbol">
+        <a href="RichString.html"><span class="name">RichString</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.StaticDateTime" data-isabs="true">
+      <a id="StaticDateTime:StaticDateTime"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="StaticDateTime.html"><span class="name">StaticDateTime</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.StaticDateTimeFormat" data-isabs="true">
+      <a id="StaticDateTimeFormat:StaticDateTimeFormat"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="StaticDateTimeFormat.html"><span class="name">StaticDateTimeFormat</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.StaticDateTimeZone" data-isabs="true">
+      <a id="StaticDateTimeZone:StaticDateTimeZone"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="StaticDateTimeZone.html"><span class="name">StaticDateTimeZone</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.StaticDuration" data-isabs="true">
+      <a id="StaticDuration:StaticDuration"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="StaticDuration.html"><span class="name">StaticDuration</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.StaticForwarderImports" data-isabs="true">
+      <a id="StaticForwarderImports:StaticForwarderImports"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="StaticForwarderImports.html"><span class="name">StaticForwarderImports</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.StaticInterval" data-isabs="true">
+      <a id="StaticInterval:StaticInterval"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="StaticInterval.html"><span class="name">StaticInterval</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.StaticLocalDate" data-isabs="true">
+      <a id="StaticLocalDate:StaticLocalDate"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="StaticLocalDate.html"><span class="name">StaticLocalDate</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.StaticLocalDateTime" data-isabs="true">
+      <a id="StaticLocalDateTime:StaticLocalDateTime"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="StaticLocalDateTime.html"><span class="name">StaticLocalDateTime</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.StaticLocalTime" data-isabs="true">
+      <a id="StaticLocalTime:StaticLocalTime"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="StaticLocalTime.html"><span class="name">StaticLocalTime</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.StaticPartial" data-isabs="true">
+      <a id="StaticPartial:StaticPartial"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="StaticPartial.html"><span class="name">StaticPartial</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.StaticPeriod" data-isabs="true">
+      <a id="StaticPeriod:StaticPeriod"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="StaticPeriod.html"><span class="name">StaticPeriod</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.StringImplicits" data-isabs="true">
+      <a id="StringImplicits:StringImplicits"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="StringImplicits.html"><span class="name">StringImplicits</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.TypeImports" data-isabs="true">
+      <a id="TypeImports:TypeImports"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">trait</span>
+      </span>
+      <span class="symbol">
+        <a href="TypeImports.html"><span class="name">TypeImports</span></a><span class="result"> extends AnyRef</span>
+      </span>
+      </h4>
+      
+    </li></ol>
+            </div>
+
+        
+
+        <div class="values members" id="values">
+              <h3>Value Members</h3>
+              <ol><li visbl="pub" name="com.github.nscala_time.time.BuilderImplicits" data-isabs="false">
+      <a id="BuilderImplicits:BuilderImplicits"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="BuilderImplicits$.html"><span class="name">BuilderImplicits</span></a><span class="result"> extends Implicits</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.Implicits" data-isabs="false">
+      <a id="Implicits:Implicits"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Implicits$.html"><span class="name">Implicits</span></a><span class="result"> extends Implicits</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.Imports" data-isabs="false">
+      <a id="Imports:Imports"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="Imports$.html"><span class="name">Imports</span></a><span class="result"> extends Imports</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.IntImplicits" data-isabs="false">
+      <a id="IntImplicits:IntImplicits"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="IntImplicits$.html"><span class="name">IntImplicits</span></a><span class="result"> extends IntImplicits</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.JodaImplicits" data-isabs="false">
+      <a id="JodaImplicits:JodaImplicits"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="JodaImplicits$.html"><span class="name">JodaImplicits</span></a><span class="result"> extends JodaImplicits</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.OrderingImplicits" data-isabs="false">
+      <a id="OrderingImplicits:OrderingImplicits"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="OrderingImplicits$.html"><span class="name">OrderingImplicits</span></a><span class="result"> extends OrderingImplicits</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.StaticDateTime" data-isabs="false">
+      <a id="StaticDateTime:StaticDateTime"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="StaticDateTime$.html"><span class="name">StaticDateTime</span></a><span class="result"> extends StaticDateTime</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.StaticDateTimeFormat" data-isabs="false">
+      <a id="StaticDateTimeFormat:StaticDateTimeFormat"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="StaticDateTimeFormat$.html"><span class="name">StaticDateTimeFormat</span></a><span class="result"> extends StaticDateTimeFormat</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.StaticDateTimeZone" data-isabs="false">
+      <a id="StaticDateTimeZone:StaticDateTimeZone"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="StaticDateTimeZone$.html"><span class="name">StaticDateTimeZone</span></a><span class="result"> extends StaticDateTimeZone</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.StaticDuration" data-isabs="false">
+      <a id="StaticDuration:StaticDuration"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="StaticDuration$.html"><span class="name">StaticDuration</span></a><span class="result"> extends StaticDuration</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.StaticForwarderImports" data-isabs="false">
+      <a id="StaticForwarderImports:StaticForwarderImports"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="StaticForwarderImports$.html"><span class="name">StaticForwarderImports</span></a><span class="result"> extends StaticForwarderImports</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.StaticInterval" data-isabs="false">
+      <a id="StaticInterval:StaticInterval"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="StaticInterval$.html"><span class="name">StaticInterval</span></a><span class="result"> extends StaticInterval</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.StaticLocalDate" data-isabs="false">
+      <a id="StaticLocalDate:StaticLocalDate"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="StaticLocalDate$.html"><span class="name">StaticLocalDate</span></a><span class="result"> extends StaticLocalDate</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.StaticLocalDateTime" data-isabs="false">
+      <a id="StaticLocalDateTime:StaticLocalDateTime"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="StaticLocalDateTime$.html"><span class="name">StaticLocalDateTime</span></a><span class="result"> extends StaticLocalDateTime</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.StaticLocalTime" data-isabs="false">
+      <a id="StaticLocalTime:StaticLocalTime"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="StaticLocalTime$.html"><span class="name">StaticLocalTime</span></a><span class="result"> extends StaticLocalTime</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.StaticPartial" data-isabs="false">
+      <a id="StaticPartial:StaticPartial"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="StaticPartial$.html"><span class="name">StaticPartial</span></a><span class="result"> extends StaticPartial</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.StaticPeriod" data-isabs="false">
+      <a id="StaticPeriod:StaticPeriod"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="StaticPeriod$.html"><span class="name">StaticPeriod</span></a><span class="result"> extends StaticPeriod</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.StringImplicits" data-isabs="false">
+      <a id="StringImplicits:StringImplicits"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="StringImplicits$.html"><span class="name">StringImplicits</span></a><span class="result"> extends StringImplicits</span>
+      </span>
+      </h4>
+      
+    </li><li visbl="pub" name="com.github.nscala_time.time.TypeImports" data-isabs="false">
+      <a id="TypeImports:TypeImports"></a>
+      <h4 class="signature">
+      <span class="modifier_kind">
+        <span class="modifier"></span>
+        <span class="kind">object</span>
+      </span>
+      <span class="symbol">
+        <a href="TypeImports$.html"><span class="name">TypeImports</span></a><span class="result"> extends TypeImports</span>
+      </span>
+      </h4>
+      
+    </li></ol>
+            </div>
+
+        
+        </div>
+
+        <div id="inheritedMembers">
+        
+        </div>
+
+      </div>
+
+      <div id="tooltip"></div>
+
+      <div id="footer">  </div>
+
+
+    </body>
+      </html>
