@@ -2,24 +2,39 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html>
         <head>
-          <title>com.github.nscala_time.time</title>
+          <title>time - com.github.nscala_time.time</title>
+          <meta name="description" content="time - com.github.nscala time.time" />
+          <meta name="keywords" content="time com.github.nscala time.time" />
           <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
           
-      <link type="text/css" media="screen" rel="stylesheet" href="../../../../lib/template.css" />
-      <script type="text/javascript" src="../../../../lib/jquery.js"></script>
+      <link href="../../../../lib/template.css" media="screen" type="text/css" rel="stylesheet" />
+      <link href="../../../../lib/diagrams.css" media="screen" type="text/css" rel="stylesheet" id="diagrams-css" />
+      <script type="text/javascript" src="../../../../lib/jquery.js" id="jquery-js"></script>
       <script type="text/javascript" src="../../../../lib/jquery-ui.js"></script>
       <script type="text/javascript" src="../../../../lib/template.js"></script>
       <script type="text/javascript" src="../../../../lib/tools.tooltip.js"></script>
+      
+      <script type="text/javascript">
+         if(top === self) {
+            var url = '../../../../index.html';
+            var hash = 'com.github.nscala_time.time.package';
+            var anchor = window.location.hash;
+            var anchor_opt = '';
+            if (anchor.length >= 1)
+              anchor_opt = '@' + anchor.substring(1);
+            window.location.href = url + '#' + hash + anchor_opt;
+         }
+   	  </script>
     
         </head>
-        <body onload="sh_highlightDocument('../lib/', '.min.js');" class="value">
+        <body class="value">
       <div id="definition">
         <img src="../../../../lib/package_big.png" />
-        <p id="owner"><a name="com" class="extype" href="../../../package.html">com</a>.<a name="com.github" class="extype" href="../../package.html">github</a>.<a name="com.github.nscala_time" class="extype" href="../package.html">nscala_time</a></p>
+        <p id="owner"><a href="../../../package.html" class="extype" name="com">com</a>.<a href="../../package.html" class="extype" name="com.github">github</a>.<a href="../package.html" class="extype" name="com.github.nscala_time">nscala_time</a></p>
         <h1>time</h1>
       </div>
 
-      <h4 class="signature" id="signature">
+      <h4 id="signature" class="signature">
       <span class="modifier_kind">
         <span class="modifier"></span>
         <span class="kind">package</span>
@@ -29,11 +44,11 @@
       </span>
       </h4>
       
-      <div class="fullcommenttop" id="comment"></div>
-    
+          <div id="comment" class="fullcommenttop"></div>
+        
 
       <div id="mbrsel">
-        <div id="textfilter"><span class="pre"></span><span class="input"><input accesskey="/" type="text" /></span><span class="post"></span></div>
+        <div id="textfilter"><span class="pre"></span><span class="input"><input id="mbrsel-input" type="text" accesskey="/" /></span><span class="post"></span></div>
         
         
         <div id="visbl">
@@ -46,9 +61,10 @@
         <div id="allMembers">
         
 
-        <div class="types members" id="types">
+        <div id="types" class="types members">
               <h3>Type Members</h3>
-              <ol><li visbl="pub" name="com.github.nscala_time.time.BuilderImplicits" data-isabs="true">
+              <ol><li name="com.github.nscala_time.time.BuilderImplicits" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="BuilderImplicitsextendsAnyRef"></a>
       <a id="BuilderImplicits:BuilderImplicits"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -56,11 +72,12 @@
         <span class="kind">trait</span>
       </span>
       <span class="symbol">
-        <a href="BuilderImplicits.html"><span class="name">BuilderImplicits</span></a><span class="result"> extends AnyRef</span>
+        <a href="BuilderImplicits.html"><span class="name">BuilderImplicits</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.DateImplicits" data-isabs="true">
+    </li><li name="com.github.nscala_time.time.DateImplicits" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="DateImplicitsextendsAnyRef"></a>
       <a id="DateImplicits:DateImplicits"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -68,11 +85,12 @@
         <span class="kind">trait</span>
       </span>
       <span class="symbol">
-        <a href="DateImplicits.html"><span class="name">DateImplicits</span></a><span class="result"> extends AnyRef</span>
+        <a href="DateImplicits.html"><span class="name">DateImplicits</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.Implicits" data-isabs="true">
+    </li><li name="com.github.nscala_time.time.Implicits" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="ImplicitsextendsBuilderImplicitswithIntImplicitswithStringImplicitswithDateImplicitswithOrderingImplicitswithJodaImplicits"></a>
       <a id="Implicits:Implicits"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -80,11 +98,12 @@
         <span class="kind">trait</span>
       </span>
       <span class="symbol">
-        <a href="Implicits.html"><span class="name">Implicits</span></a><span class="result"> extends BuilderImplicits with IntImplicits with StringImplicits with DateImplicits with OrderingImplicits with JodaImplicits</span>
+        <a href="Implicits.html"><span class="name">Implicits</span></a><span class="result"> extends <a href="BuilderImplicits.html" class="extype" name="com.github.nscala_time.time.BuilderImplicits">BuilderImplicits</a> with <a href="IntImplicits.html" class="extype" name="com.github.nscala_time.time.IntImplicits">IntImplicits</a> with <a href="StringImplicits.html" class="extype" name="com.github.nscala_time.time.StringImplicits">StringImplicits</a> with <a href="DateImplicits.html" class="extype" name="com.github.nscala_time.time.DateImplicits">DateImplicits</a> with <a href="OrderingImplicits.html" class="extype" name="com.github.nscala_time.time.OrderingImplicits">OrderingImplicits</a> with <a href="JodaImplicits.html" class="extype" name="com.github.nscala_time.time.JodaImplicits">JodaImplicits</a></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.Imports" data-isabs="true">
+    </li><li name="com.github.nscala_time.time.Imports" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="ImportsextendsTypeImportswithStaticForwarderImportswithImplicits"></a>
       <a id="Imports:Imports"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -92,11 +111,12 @@
         <span class="kind">trait</span>
       </span>
       <span class="symbol">
-        <a href="Imports.html"><span class="name">Imports</span></a><span class="result"> extends TypeImports with StaticForwarderImports with Implicits</span>
+        <a href="Imports.html"><span class="name">Imports</span></a><span class="result"> extends <a href="TypeImports.html" class="extype" name="com.github.nscala_time.time.TypeImports">TypeImports</a> with <a href="StaticForwarderImports.html" class="extype" name="com.github.nscala_time.time.StaticForwarderImports">StaticForwarderImports</a> with <a href="Implicits.html" class="extype" name="com.github.nscala_time.time.Implicits">Implicits</a></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.IntImplicits" data-isabs="true">
+    </li><li name="com.github.nscala_time.time.IntImplicits" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="IntImplicitsextendsAnyRef"></a>
       <a id="IntImplicits:IntImplicits"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -104,11 +124,12 @@
         <span class="kind">trait</span>
       </span>
       <span class="symbol">
-        <a href="IntImplicits.html"><span class="name">IntImplicits</span></a><span class="result"> extends AnyRef</span>
+        <a href="IntImplicits.html"><span class="name">IntImplicits</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.JodaImplicits" data-isabs="true">
+    </li><li name="com.github.nscala_time.time.JodaImplicits" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="JodaImplicitsextendsAnyRef"></a>
       <a id="JodaImplicits:JodaImplicits"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -116,11 +137,12 @@
         <span class="kind">trait</span>
       </span>
       <span class="symbol">
-        <a href="JodaImplicits.html"><span class="name">JodaImplicits</span></a><span class="result"> extends AnyRef</span>
+        <a href="JodaImplicits.html"><span class="name">JodaImplicits</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.LowPriorityOrderingImplicits" data-isabs="true">
+    </li><li name="com.github.nscala_time.time.LowPriorityOrderingImplicits" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="LowPriorityOrderingImplicitsextendsAnyRef"></a>
       <a id="LowPriorityOrderingImplicits:LowPriorityOrderingImplicits"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -128,11 +150,12 @@
         <span class="kind">trait</span>
       </span>
       <span class="symbol">
-        <a href="LowPriorityOrderingImplicits.html"><span class="name">LowPriorityOrderingImplicits</span></a><span class="result"> extends AnyRef</span>
+        <a href="LowPriorityOrderingImplicits.html"><span class="name">LowPriorityOrderingImplicits</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.OrderingImplicits" data-isabs="true">
+    </li><li name="com.github.nscala_time.time.OrderingImplicits" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="OrderingImplicitsextendsLowPriorityOrderingImplicits"></a>
       <a id="OrderingImplicits:OrderingImplicits"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -140,11 +163,12 @@
         <span class="kind">trait</span>
       </span>
       <span class="symbol">
-        <a href="OrderingImplicits.html"><span class="name">OrderingImplicits</span></a><span class="result"> extends LowPriorityOrderingImplicits</span>
+        <a href="OrderingImplicits.html"><span class="name">OrderingImplicits</span></a><span class="result"> extends <a href="LowPriorityOrderingImplicits.html" class="extype" name="com.github.nscala_time.time.LowPriorityOrderingImplicits">LowPriorityOrderingImplicits</a></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.RichAbstractDateTime" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.RichAbstractDateTime" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RichAbstractDateTimeextendsPimpedType[org.joda.time.base.AbstractDateTime]"></a>
       <a id="RichAbstractDateTime:RichAbstractDateTime"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -152,11 +176,12 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <a href="RichAbstractDateTime.html"><span class="name">RichAbstractDateTime</span></a><span class="result"> extends PimpedType[AbstractDateTime]</span>
+        <a href="RichAbstractDateTime.html"><span class="name">RichAbstractDateTime</span></a><span class="result"> extends <a href="../PimpedType.html" class="extype" name="com.github.nscala_time.PimpedType">PimpedType</a>[<span class="extype" name="org.joda.time.base.AbstractDateTime">AbstractDateTime</span>]</span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.RichAbstractInstant" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.RichAbstractInstant" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RichAbstractInstantextendsPimpedType[org.joda.time.base.AbstractInstant]"></a>
       <a id="RichAbstractInstant:RichAbstractInstant"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -164,11 +189,12 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <a href="RichAbstractInstant.html"><span class="name">RichAbstractInstant</span></a><span class="result"> extends PimpedType[AbstractInstant]</span>
+        <a href="RichAbstractInstant.html"><span class="name">RichAbstractInstant</span></a><span class="result"> extends <a href="../PimpedType.html" class="extype" name="com.github.nscala_time.PimpedType">PimpedType</a>[<span class="extype" name="org.joda.time.base.AbstractInstant">AbstractInstant</span>]</span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.RichAbstractPartial" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.RichAbstractPartial" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RichAbstractPartialextendsOrdered[org.joda.time.base.AbstractPartial]withPimpedType[org.joda.time.base.AbstractPartial]"></a>
       <a id="RichAbstractPartial:RichAbstractPartial"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -176,11 +202,12 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <a href="RichAbstractPartial.html"><span class="name">RichAbstractPartial</span></a><span class="result"> extends Ordered[AbstractPartial] with PimpedType[AbstractPartial]</span>
+        <a href="RichAbstractPartial.html"><span class="name">RichAbstractPartial</span></a><span class="result"> extends <span class="extype" name="scala.Ordered">Ordered</span>[<span class="extype" name="org.joda.time.base.AbstractPartial">AbstractPartial</span>] with <a href="../PimpedType.html" class="extype" name="com.github.nscala_time.PimpedType">PimpedType</a>[<span class="extype" name="org.joda.time.base.AbstractPartial">AbstractPartial</span>]</span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.RichAbstractReadableInstantFieldProperty" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.RichAbstractReadableInstantFieldProperty" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RichAbstractReadableInstantFieldPropertyextendsPimpedType[org.joda.time.field.AbstractReadableInstantFieldProperty]"></a>
       <a id="RichAbstractReadableInstantFieldProperty:RichAbstractReadableInstantFieldProperty"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -188,11 +215,12 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <a href="RichAbstractReadableInstantFieldProperty.html"><span class="name">RichAbstractReadableInstantFieldProperty</span></a><span class="result"> extends PimpedType[AbstractReadableInstantFieldProperty]</span>
+        <a href="RichAbstractReadableInstantFieldProperty.html"><span class="name">RichAbstractReadableInstantFieldProperty</span></a><span class="result"> extends <a href="../PimpedType.html" class="extype" name="com.github.nscala_time.PimpedType">PimpedType</a>[<span class="extype" name="org.joda.time.field.AbstractReadableInstantFieldProperty">AbstractReadableInstantFieldProperty</span>]</span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.RichChronology" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.RichChronology" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RichChronologyextendsPimpedType[org.joda.time.Chronology]"></a>
       <a id="RichChronology:RichChronology"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -200,11 +228,12 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <a href="RichChronology.html"><span class="name">RichChronology</span></a><span class="result"> extends PimpedType[Chronology]</span>
+        <a href="RichChronology.html"><span class="name">RichChronology</span></a><span class="result"> extends <a href="../PimpedType.html" class="extype" name="com.github.nscala_time.PimpedType">PimpedType</a>[<span class="extype" name="org.joda.time.Chronology">Chronology</span>]</span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.RichDate" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.RichDate" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RichDateextendsPimpedType[java.util.Date]"></a>
       <a id="RichDate:RichDate"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -212,11 +241,12 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <a href="RichDate.html"><span class="name">RichDate</span></a><span class="result"> extends PimpedType[Date]</span>
+        <a href="RichDate.html"><span class="name">RichDate</span></a><span class="result"> extends <a href="../PimpedType.html" class="extype" name="com.github.nscala_time.PimpedType">PimpedType</a>[<span class="extype" name="java.util.Date">Date</span>]</span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.RichDateMidnight" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.RichDateMidnight" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RichDateMidnightextendsPimpedType[org.joda.time.DateMidnight]"></a>
       <a id="RichDateMidnight:RichDateMidnight"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -224,11 +254,12 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <a href="RichDateMidnight.html"><span class="name">RichDateMidnight</span></a><span class="result"> extends PimpedType[DateMidnight]</span>
+        <a href="RichDateMidnight.html"><span class="name">RichDateMidnight</span></a><span class="result"> extends <a href="../PimpedType.html" class="extype" name="com.github.nscala_time.PimpedType">PimpedType</a>[<span class="extype" name="org.joda.time.DateMidnight">DateMidnight</span>]</span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.RichDateTime" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.RichDateTime" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RichDateTimeextendsPimpedType[org.joda.time.DateTime]"></a>
       <a id="RichDateTime:RichDateTime"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -236,11 +267,12 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <a href="RichDateTime.html"><span class="name">RichDateTime</span></a><span class="result"> extends PimpedType[DateTime]</span>
+        <a href="RichDateTime.html"><span class="name">RichDateTime</span></a><span class="result"> extends <a href="../PimpedType.html" class="extype" name="com.github.nscala_time.PimpedType">PimpedType</a>[<span class="extype" name="org.joda.time.DateTime">DateTime</span>]</span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.RichDateTimeFormatter" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.RichDateTimeFormatter" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RichDateTimeFormatterextendsPimpedType[org.joda.time.format.DateTimeFormatter]"></a>
       <a id="RichDateTimeFormatter:RichDateTimeFormatter"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -248,11 +280,12 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <a href="RichDateTimeFormatter.html"><span class="name">RichDateTimeFormatter</span></a><span class="result"> extends PimpedType[DateTimeFormatter]</span>
+        <a href="RichDateTimeFormatter.html"><span class="name">RichDateTimeFormatter</span></a><span class="result"> extends <a href="../PimpedType.html" class="extype" name="com.github.nscala_time.PimpedType">PimpedType</a>[<span class="extype" name="org.joda.time.format.DateTimeFormatter">DateTimeFormatter</span>]</span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.RichDateTimeProperty" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.RichDateTimeProperty" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RichDateTimePropertyextendsPimpedType[org.joda.time.DateTime.Property]"></a>
       <a id="RichDateTimeProperty:RichDateTimeProperty"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -260,11 +293,12 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <a href="RichDateTimeProperty.html"><span class="name">RichDateTimeProperty</span></a><span class="result"> extends PimpedType[Property]</span>
+        <a href="RichDateTimeProperty.html"><span class="name">RichDateTimeProperty</span></a><span class="result"> extends <a href="../PimpedType.html" class="extype" name="com.github.nscala_time.PimpedType">PimpedType</a>[<span class="extype" name="org.joda.time.DateTime.Property">Property</span>]</span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.RichDateTimeZone" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.RichDateTimeZone" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RichDateTimeZoneextendsPimpedType[org.joda.time.DateTimeZone]"></a>
       <a id="RichDateTimeZone:RichDateTimeZone"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -272,11 +306,12 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <a href="RichDateTimeZone.html"><span class="name">RichDateTimeZone</span></a><span class="result"> extends PimpedType[DateTimeZone]</span>
+        <a href="RichDateTimeZone.html"><span class="name">RichDateTimeZone</span></a><span class="result"> extends <a href="../PimpedType.html" class="extype" name="com.github.nscala_time.PimpedType">PimpedType</a>[<span class="extype" name="org.joda.time.DateTimeZone">DateTimeZone</span>]</span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.RichDuration" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.RichDuration" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RichDurationextendsPimpedType[org.joda.time.Duration]"></a>
       <a id="RichDuration:RichDuration"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -284,11 +319,12 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <a href="RichDuration.html"><span class="name">RichDuration</span></a><span class="result"> extends PimpedType[Duration]</span>
+        <a href="RichDuration.html"><span class="name">RichDuration</span></a><span class="result"> extends <a href="../PimpedType.html" class="extype" name="com.github.nscala_time.PimpedType">PimpedType</a>[<span class="extype" name="org.joda.time.Duration">Duration</span>]</span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.RichInstant" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.RichInstant" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RichInstantextendsPimpedType[org.joda.time.Instant]"></a>
       <a id="RichInstant:RichInstant"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -296,11 +332,12 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <a href="RichInstant.html"><span class="name">RichInstant</span></a><span class="result"> extends PimpedType[Instant]</span>
+        <a href="RichInstant.html"><span class="name">RichInstant</span></a><span class="result"> extends <a href="../PimpedType.html" class="extype" name="com.github.nscala_time.PimpedType">PimpedType</a>[<span class="extype" name="org.joda.time.Instant">Instant</span>]</span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.RichInt" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.RichInt" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RichIntextendsPimpedType[Int]"></a>
       <a id="RichInt:RichInt"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -308,11 +345,12 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <a href="RichInt.html"><span class="name">RichInt</span></a><span class="result"> extends PimpedType[Int]</span>
+        <a href="RichInt.html"><span class="name">RichInt</span></a><span class="result"> extends <a href="../PimpedType.html" class="extype" name="com.github.nscala_time.PimpedType">PimpedType</a>[<span class="extype" name="scala.Int">Int</span>]</span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.RichLocalDate" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.RichLocalDate" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RichLocalDateextendsPimpedType[org.joda.time.LocalDate]"></a>
       <a id="RichLocalDate:RichLocalDate"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -320,11 +358,12 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <a href="RichLocalDate.html"><span class="name">RichLocalDate</span></a><span class="result"> extends PimpedType[LocalDate]</span>
+        <a href="RichLocalDate.html"><span class="name">RichLocalDate</span></a><span class="result"> extends <a href="../PimpedType.html" class="extype" name="com.github.nscala_time.PimpedType">PimpedType</a>[<span class="extype" name="org.joda.time.LocalDate">LocalDate</span>]</span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.RichLocalDateProperty" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.RichLocalDateProperty" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RichLocalDatePropertyextendsPimpedType[org.joda.time.LocalDate.Property]"></a>
       <a id="RichLocalDateProperty:RichLocalDateProperty"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -332,11 +371,12 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <a href="RichLocalDateProperty.html"><span class="name">RichLocalDateProperty</span></a><span class="result"> extends PimpedType[Property]</span>
+        <a href="RichLocalDateProperty.html"><span class="name">RichLocalDateProperty</span></a><span class="result"> extends <a href="../PimpedType.html" class="extype" name="com.github.nscala_time.PimpedType">PimpedType</a>[<span class="extype" name="org.joda.time.LocalDate.Property">Property</span>]</span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.RichLocalDateTime" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.RichLocalDateTime" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RichLocalDateTimeextendsPimpedType[org.joda.time.LocalDateTime]"></a>
       <a id="RichLocalDateTime:RichLocalDateTime"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -344,11 +384,12 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <a href="RichLocalDateTime.html"><span class="name">RichLocalDateTime</span></a><span class="result"> extends PimpedType[LocalDateTime]</span>
+        <a href="RichLocalDateTime.html"><span class="name">RichLocalDateTime</span></a><span class="result"> extends <a href="../PimpedType.html" class="extype" name="com.github.nscala_time.PimpedType">PimpedType</a>[<span class="extype" name="org.joda.time.LocalDateTime">LocalDateTime</span>]</span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.RichLocalDateTimeProperty" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.RichLocalDateTimeProperty" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RichLocalDateTimePropertyextendsPimpedType[org.joda.time.LocalDateTime.Property]"></a>
       <a id="RichLocalDateTimeProperty:RichLocalDateTimeProperty"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -356,11 +397,12 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <a href="RichLocalDateTimeProperty.html"><span class="name">RichLocalDateTimeProperty</span></a><span class="result"> extends PimpedType[Property]</span>
+        <a href="RichLocalDateTimeProperty.html"><span class="name">RichLocalDateTimeProperty</span></a><span class="result"> extends <a href="../PimpedType.html" class="extype" name="com.github.nscala_time.PimpedType">PimpedType</a>[<span class="extype" name="org.joda.time.LocalDateTime.Property">Property</span>]</span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.RichLocalTime" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.RichLocalTime" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RichLocalTimeextendsPimpedType[org.joda.time.LocalTime]"></a>
       <a id="RichLocalTime:RichLocalTime"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -368,11 +410,12 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <a href="RichLocalTime.html"><span class="name">RichLocalTime</span></a><span class="result"> extends PimpedType[LocalTime]</span>
+        <a href="RichLocalTime.html"><span class="name">RichLocalTime</span></a><span class="result"> extends <a href="../PimpedType.html" class="extype" name="com.github.nscala_time.PimpedType">PimpedType</a>[<span class="extype" name="org.joda.time.LocalTime">LocalTime</span>]</span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.RichLocalTimeProperty" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.RichLocalTimeProperty" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RichLocalTimePropertyextendsPimpedType[org.joda.time.LocalTime.Property]"></a>
       <a id="RichLocalTimeProperty:RichLocalTimeProperty"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -380,11 +423,12 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <a href="RichLocalTimeProperty.html"><span class="name">RichLocalTimeProperty</span></a><span class="result"> extends PimpedType[Property]</span>
+        <a href="RichLocalTimeProperty.html"><span class="name">RichLocalTimeProperty</span></a><span class="result"> extends <a href="../PimpedType.html" class="extype" name="com.github.nscala_time.PimpedType">PimpedType</a>[<span class="extype" name="org.joda.time.LocalTime.Property">Property</span>]</span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.RichLong" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.RichLong" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RichLongextendsPimpedType[Long]"></a>
       <a id="RichLong:RichLong"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -392,11 +436,12 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <a href="RichLong.html"><span class="name">RichLong</span></a><span class="result"> extends PimpedType[Long]</span>
+        <a href="RichLong.html"><span class="name">RichLong</span></a><span class="result"> extends <a href="../PimpedType.html" class="extype" name="com.github.nscala_time.PimpedType">PimpedType</a>[<span class="extype" name="scala.Long">Long</span>]</span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.RichPartial" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.RichPartial" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RichPartialextendsPimpedType[org.joda.time.Partial]"></a>
       <a id="RichPartial:RichPartial"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -404,11 +449,12 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <a href="RichPartial.html"><span class="name">RichPartial</span></a><span class="result"> extends PimpedType[Partial]</span>
+        <a href="RichPartial.html"><span class="name">RichPartial</span></a><span class="result"> extends <a href="../PimpedType.html" class="extype" name="com.github.nscala_time.PimpedType">PimpedType</a>[<span class="extype" name="org.joda.time.Partial">Partial</span>]</span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.RichPartialProperty" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.RichPartialProperty" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RichPartialPropertyextendsPimpedType[org.joda.time.Partial.Property]"></a>
       <a id="RichPartialProperty:RichPartialProperty"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -416,11 +462,12 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <a href="RichPartialProperty.html"><span class="name">RichPartialProperty</span></a><span class="result"> extends PimpedType[Property]</span>
+        <a href="RichPartialProperty.html"><span class="name">RichPartialProperty</span></a><span class="result"> extends <a href="../PimpedType.html" class="extype" name="com.github.nscala_time.PimpedType">PimpedType</a>[<span class="extype" name="org.joda.time.Partial.Property">Property</span>]</span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.RichPeriod" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.RichPeriod" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RichPeriodextendsPimpedType[org.joda.time.Period]"></a>
       <a id="RichPeriod:RichPeriod"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -428,11 +475,12 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <a href="RichPeriod.html"><span class="name">RichPeriod</span></a><span class="result"> extends PimpedType[Period]</span>
+        <a href="RichPeriod.html"><span class="name">RichPeriod</span></a><span class="result"> extends <a href="../PimpedType.html" class="extype" name="com.github.nscala_time.PimpedType">PimpedType</a>[<span class="extype" name="org.joda.time.Period">Period</span>]</span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.RichReadableDateTime" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.RichReadableDateTime" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RichReadableDateTimeextendsPimpedType[org.joda.time.ReadableDateTime]"></a>
       <a id="RichReadableDateTime:RichReadableDateTime"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -440,11 +488,12 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <a href="RichReadableDateTime.html"><span class="name">RichReadableDateTime</span></a><span class="result"> extends PimpedType[ReadableDateTime]</span>
+        <a href="RichReadableDateTime.html"><span class="name">RichReadableDateTime</span></a><span class="result"> extends <a href="../PimpedType.html" class="extype" name="com.github.nscala_time.PimpedType">PimpedType</a>[<span class="extype" name="org.joda.time.ReadableDateTime">ReadableDateTime</span>]</span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.RichReadableDuration" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.RichReadableDuration" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RichReadableDurationextendsOrdered[org.joda.time.ReadableDuration]withPimpedType[org.joda.time.ReadableDuration]"></a>
       <a id="RichReadableDuration:RichReadableDuration"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -452,11 +501,12 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <a href="RichReadableDuration.html"><span class="name">RichReadableDuration</span></a><span class="result"> extends Ordered[ReadableDuration] with PimpedType[ReadableDuration]</span>
+        <a href="RichReadableDuration.html"><span class="name">RichReadableDuration</span></a><span class="result"> extends <span class="extype" name="scala.Ordered">Ordered</span>[<span class="extype" name="org.joda.time.ReadableDuration">ReadableDuration</span>] with <a href="../PimpedType.html" class="extype" name="com.github.nscala_time.PimpedType">PimpedType</a>[<span class="extype" name="org.joda.time.ReadableDuration">ReadableDuration</span>]</span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.RichReadableInstant" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.RichReadableInstant" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RichReadableInstantextendsOrdered[org.joda.time.ReadableInstant]withPimpedType[org.joda.time.ReadableInstant]"></a>
       <a id="RichReadableInstant:RichReadableInstant"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -464,11 +514,12 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <a href="RichReadableInstant.html"><span class="name">RichReadableInstant</span></a><span class="result"> extends Ordered[ReadableInstant] with PimpedType[ReadableInstant]</span>
+        <a href="RichReadableInstant.html"><span class="name">RichReadableInstant</span></a><span class="result"> extends <span class="extype" name="scala.Ordered">Ordered</span>[<span class="extype" name="org.joda.time.ReadableInstant">ReadableInstant</span>] with <a href="../PimpedType.html" class="extype" name="com.github.nscala_time.PimpedType">PimpedType</a>[<span class="extype" name="org.joda.time.ReadableInstant">ReadableInstant</span>]</span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.RichReadableInterval" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.RichReadableInterval" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RichReadableIntervalextendsPimpedType[org.joda.time.ReadableInterval]"></a>
       <a id="RichReadableInterval:RichReadableInterval"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -476,11 +527,12 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <a href="RichReadableInterval.html"><span class="name">RichReadableInterval</span></a><span class="result"> extends PimpedType[ReadableInterval]</span>
+        <a href="RichReadableInterval.html"><span class="name">RichReadableInterval</span></a><span class="result"> extends <a href="../PimpedType.html" class="extype" name="com.github.nscala_time.PimpedType">PimpedType</a>[<span class="extype" name="org.joda.time.ReadableInterval">ReadableInterval</span>]</span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.RichReadablePartial" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.RichReadablePartial" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RichReadablePartialextendsPimpedType[org.joda.time.ReadablePartial]"></a>
       <a id="RichReadablePartial:RichReadablePartial"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -488,11 +540,12 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <a href="RichReadablePartial.html"><span class="name">RichReadablePartial</span></a><span class="result"> extends PimpedType[ReadablePartial]</span>
+        <a href="RichReadablePartial.html"><span class="name">RichReadablePartial</span></a><span class="result"> extends <a href="../PimpedType.html" class="extype" name="com.github.nscala_time.PimpedType">PimpedType</a>[<span class="extype" name="org.joda.time.ReadablePartial">ReadablePartial</span>]</span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.RichReadablePeriod" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.RichReadablePeriod" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RichReadablePeriodextendsPimpedType[org.joda.time.ReadablePeriod]"></a>
       <a id="RichReadablePeriod:RichReadablePeriod"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -500,11 +553,12 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <a href="RichReadablePeriod.html"><span class="name">RichReadablePeriod</span></a><span class="result"> extends PimpedType[ReadablePeriod]</span>
+        <a href="RichReadablePeriod.html"><span class="name">RichReadablePeriod</span></a><span class="result"> extends <a href="../PimpedType.html" class="extype" name="com.github.nscala_time.PimpedType">PimpedType</a>[<span class="extype" name="org.joda.time.ReadablePeriod">ReadablePeriod</span>]</span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.RichString" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.RichString" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="RichStringextendsAnyRef"></a>
       <a id="RichString:RichString"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -512,11 +566,12 @@
         <span class="kind">class</span>
       </span>
       <span class="symbol">
-        <a href="RichString.html"><span class="name">RichString</span></a><span class="result"> extends AnyRef</span>
+        <a href="RichString.html"><span class="name">RichString</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.StaticDateTime" data-isabs="true">
+    </li><li name="com.github.nscala_time.time.StaticDateTime" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="StaticDateTimeextendsAnyRef"></a>
       <a id="StaticDateTime:StaticDateTime"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -524,11 +579,12 @@
         <span class="kind">trait</span>
       </span>
       <span class="symbol">
-        <a href="StaticDateTime.html"><span class="name">StaticDateTime</span></a><span class="result"> extends AnyRef</span>
+        <a href="StaticDateTime.html"><span class="name">StaticDateTime</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.StaticDateTimeFormat" data-isabs="true">
+    </li><li name="com.github.nscala_time.time.StaticDateTimeFormat" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="StaticDateTimeFormatextendsAnyRef"></a>
       <a id="StaticDateTimeFormat:StaticDateTimeFormat"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -536,11 +592,12 @@
         <span class="kind">trait</span>
       </span>
       <span class="symbol">
-        <a href="StaticDateTimeFormat.html"><span class="name">StaticDateTimeFormat</span></a><span class="result"> extends AnyRef</span>
+        <a href="StaticDateTimeFormat.html"><span class="name">StaticDateTimeFormat</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.StaticDateTimeZone" data-isabs="true">
+    </li><li name="com.github.nscala_time.time.StaticDateTimeZone" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="StaticDateTimeZoneextendsAnyRef"></a>
       <a id="StaticDateTimeZone:StaticDateTimeZone"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -548,11 +605,12 @@
         <span class="kind">trait</span>
       </span>
       <span class="symbol">
-        <a href="StaticDateTimeZone.html"><span class="name">StaticDateTimeZone</span></a><span class="result"> extends AnyRef</span>
+        <a href="StaticDateTimeZone.html"><span class="name">StaticDateTimeZone</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.StaticDuration" data-isabs="true">
+    </li><li name="com.github.nscala_time.time.StaticDuration" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="StaticDurationextendsAnyRef"></a>
       <a id="StaticDuration:StaticDuration"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -560,11 +618,12 @@
         <span class="kind">trait</span>
       </span>
       <span class="symbol">
-        <a href="StaticDuration.html"><span class="name">StaticDuration</span></a><span class="result"> extends AnyRef</span>
+        <a href="StaticDuration.html"><span class="name">StaticDuration</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.StaticForwarderImports" data-isabs="true">
+    </li><li name="com.github.nscala_time.time.StaticForwarderImports" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="StaticForwarderImportsextendsAnyRef"></a>
       <a id="StaticForwarderImports:StaticForwarderImports"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -572,11 +631,12 @@
         <span class="kind">trait</span>
       </span>
       <span class="symbol">
-        <a href="StaticForwarderImports.html"><span class="name">StaticForwarderImports</span></a><span class="result"> extends AnyRef</span>
+        <a href="StaticForwarderImports.html"><span class="name">StaticForwarderImports</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.StaticInterval" data-isabs="true">
+    </li><li name="com.github.nscala_time.time.StaticInterval" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="StaticIntervalextendsAnyRef"></a>
       <a id="StaticInterval:StaticInterval"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -584,11 +644,12 @@
         <span class="kind">trait</span>
       </span>
       <span class="symbol">
-        <a href="StaticInterval.html"><span class="name">StaticInterval</span></a><span class="result"> extends AnyRef</span>
+        <a href="StaticInterval.html"><span class="name">StaticInterval</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.StaticLocalDate" data-isabs="true">
+    </li><li name="com.github.nscala_time.time.StaticLocalDate" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="StaticLocalDateextendsAnyRef"></a>
       <a id="StaticLocalDate:StaticLocalDate"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -596,11 +657,12 @@
         <span class="kind">trait</span>
       </span>
       <span class="symbol">
-        <a href="StaticLocalDate.html"><span class="name">StaticLocalDate</span></a><span class="result"> extends AnyRef</span>
+        <a href="StaticLocalDate.html"><span class="name">StaticLocalDate</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.StaticLocalDateTime" data-isabs="true">
+    </li><li name="com.github.nscala_time.time.StaticLocalDateTime" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="StaticLocalDateTimeextendsAnyRef"></a>
       <a id="StaticLocalDateTime:StaticLocalDateTime"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -608,11 +670,12 @@
         <span class="kind">trait</span>
       </span>
       <span class="symbol">
-        <a href="StaticLocalDateTime.html"><span class="name">StaticLocalDateTime</span></a><span class="result"> extends AnyRef</span>
+        <a href="StaticLocalDateTime.html"><span class="name">StaticLocalDateTime</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.StaticLocalTime" data-isabs="true">
+    </li><li name="com.github.nscala_time.time.StaticLocalTime" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="StaticLocalTimeextendsAnyRef"></a>
       <a id="StaticLocalTime:StaticLocalTime"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -620,11 +683,12 @@
         <span class="kind">trait</span>
       </span>
       <span class="symbol">
-        <a href="StaticLocalTime.html"><span class="name">StaticLocalTime</span></a><span class="result"> extends AnyRef</span>
+        <a href="StaticLocalTime.html"><span class="name">StaticLocalTime</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.StaticPartial" data-isabs="true">
+    </li><li name="com.github.nscala_time.time.StaticPartial" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="StaticPartialextendsAnyRef"></a>
       <a id="StaticPartial:StaticPartial"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -632,11 +696,12 @@
         <span class="kind">trait</span>
       </span>
       <span class="symbol">
-        <a href="StaticPartial.html"><span class="name">StaticPartial</span></a><span class="result"> extends AnyRef</span>
+        <a href="StaticPartial.html"><span class="name">StaticPartial</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.StaticPeriod" data-isabs="true">
+    </li><li name="com.github.nscala_time.time.StaticPeriod" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="StaticPeriodextendsAnyRef"></a>
       <a id="StaticPeriod:StaticPeriod"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -644,11 +709,12 @@
         <span class="kind">trait</span>
       </span>
       <span class="symbol">
-        <a href="StaticPeriod.html"><span class="name">StaticPeriod</span></a><span class="result"> extends AnyRef</span>
+        <a href="StaticPeriod.html"><span class="name">StaticPeriod</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.StringImplicits" data-isabs="true">
+    </li><li name="com.github.nscala_time.time.StringImplicits" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="StringImplicitsextendsAnyRef"></a>
       <a id="StringImplicits:StringImplicits"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -656,11 +722,12 @@
         <span class="kind">trait</span>
       </span>
       <span class="symbol">
-        <a href="StringImplicits.html"><span class="name">StringImplicits</span></a><span class="result"> extends AnyRef</span>
+        <a href="StringImplicits.html"><span class="name">StringImplicits</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.TypeImports" data-isabs="true">
+    </li><li name="com.github.nscala_time.time.TypeImports" visbl="pub" data-isabs="true" fullComment="no" group="Ungrouped">
+      <a id="TypeImportsextendsAnyRef"></a>
       <a id="TypeImports:TypeImports"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -668,7 +735,7 @@
         <span class="kind">trait</span>
       </span>
       <span class="symbol">
-        <a href="TypeImports.html"><span class="name">TypeImports</span></a><span class="result"> extends AnyRef</span>
+        <a href="TypeImports.html"><span class="name">TypeImports</span></a><span class="result"> extends <span class="extype" name="scala.AnyRef">AnyRef</span></span>
       </span>
       </h4>
       
@@ -677,9 +744,10 @@
 
         
 
-        <div class="values members" id="values">
+        <div id="values" class="values members">
               <h3>Value Members</h3>
-              <ol><li visbl="pub" name="com.github.nscala_time.time.BuilderImplicits" data-isabs="false">
+              <ol><li name="com.github.nscala_time.time.BuilderImplicits" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="BuilderImplicits"></a>
       <a id="BuilderImplicits:BuilderImplicits"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -687,11 +755,12 @@
         <span class="kind">object</span>
       </span>
       <span class="symbol">
-        <a href="BuilderImplicits$.html"><span class="name">BuilderImplicits</span></a><span class="result"> extends Implicits</span>
+        <a href="BuilderImplicits$.html"><span class="name">BuilderImplicits</span></a><span class="result"> extends <a href="Implicits.html" class="extype" name="com.github.nscala_time.time.Implicits">Implicits</a></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.Implicits" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.Implicits" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Implicits"></a>
       <a id="Implicits:Implicits"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -699,11 +768,12 @@
         <span class="kind">object</span>
       </span>
       <span class="symbol">
-        <a href="Implicits$.html"><span class="name">Implicits</span></a><span class="result"> extends Implicits</span>
+        <a href="Implicits$.html"><span class="name">Implicits</span></a><span class="result"> extends <a href="Implicits.html" class="extype" name="com.github.nscala_time.time.Implicits">Implicits</a></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.Imports" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.Imports" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="Imports"></a>
       <a id="Imports:Imports"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -711,11 +781,12 @@
         <span class="kind">object</span>
       </span>
       <span class="symbol">
-        <a href="Imports$.html"><span class="name">Imports</span></a><span class="result"> extends Imports</span>
+        <a href="Imports$.html"><span class="name">Imports</span></a><span class="result"> extends <a href="Imports.html" class="extype" name="com.github.nscala_time.time.Imports">Imports</a></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.IntImplicits" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.IntImplicits" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="IntImplicits"></a>
       <a id="IntImplicits:IntImplicits"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -723,11 +794,12 @@
         <span class="kind">object</span>
       </span>
       <span class="symbol">
-        <a href="IntImplicits$.html"><span class="name">IntImplicits</span></a><span class="result"> extends IntImplicits</span>
+        <a href="IntImplicits$.html"><span class="name">IntImplicits</span></a><span class="result"> extends <a href="IntImplicits.html" class="extype" name="com.github.nscala_time.time.IntImplicits">IntImplicits</a></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.JodaImplicits" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.JodaImplicits" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="JodaImplicits"></a>
       <a id="JodaImplicits:JodaImplicits"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -735,11 +807,12 @@
         <span class="kind">object</span>
       </span>
       <span class="symbol">
-        <a href="JodaImplicits$.html"><span class="name">JodaImplicits</span></a><span class="result"> extends JodaImplicits</span>
+        <a href="JodaImplicits$.html"><span class="name">JodaImplicits</span></a><span class="result"> extends <a href="JodaImplicits.html" class="extype" name="com.github.nscala_time.time.JodaImplicits">JodaImplicits</a></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.OrderingImplicits" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.OrderingImplicits" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="OrderingImplicits"></a>
       <a id="OrderingImplicits:OrderingImplicits"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -747,11 +820,12 @@
         <span class="kind">object</span>
       </span>
       <span class="symbol">
-        <a href="OrderingImplicits$.html"><span class="name">OrderingImplicits</span></a><span class="result"> extends OrderingImplicits</span>
+        <a href="OrderingImplicits$.html"><span class="name">OrderingImplicits</span></a><span class="result"> extends <a href="OrderingImplicits.html" class="extype" name="com.github.nscala_time.time.OrderingImplicits">OrderingImplicits</a></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.StaticDateTime" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.StaticDateTime" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="StaticDateTime"></a>
       <a id="StaticDateTime:StaticDateTime"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -759,11 +833,12 @@
         <span class="kind">object</span>
       </span>
       <span class="symbol">
-        <a href="StaticDateTime$.html"><span class="name">StaticDateTime</span></a><span class="result"> extends StaticDateTime</span>
+        <a href="StaticDateTime$.html"><span class="name">StaticDateTime</span></a><span class="result"> extends <a href="StaticDateTime.html" class="extype" name="com.github.nscala_time.time.StaticDateTime">StaticDateTime</a></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.StaticDateTimeFormat" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.StaticDateTimeFormat" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="StaticDateTimeFormat"></a>
       <a id="StaticDateTimeFormat:StaticDateTimeFormat"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -771,11 +846,12 @@
         <span class="kind">object</span>
       </span>
       <span class="symbol">
-        <a href="StaticDateTimeFormat$.html"><span class="name">StaticDateTimeFormat</span></a><span class="result"> extends StaticDateTimeFormat</span>
+        <a href="StaticDateTimeFormat$.html"><span class="name">StaticDateTimeFormat</span></a><span class="result"> extends <a href="StaticDateTimeFormat.html" class="extype" name="com.github.nscala_time.time.StaticDateTimeFormat">StaticDateTimeFormat</a></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.StaticDateTimeZone" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.StaticDateTimeZone" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="StaticDateTimeZone"></a>
       <a id="StaticDateTimeZone:StaticDateTimeZone"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -783,11 +859,12 @@
         <span class="kind">object</span>
       </span>
       <span class="symbol">
-        <a href="StaticDateTimeZone$.html"><span class="name">StaticDateTimeZone</span></a><span class="result"> extends StaticDateTimeZone</span>
+        <a href="StaticDateTimeZone$.html"><span class="name">StaticDateTimeZone</span></a><span class="result"> extends <a href="StaticDateTimeZone.html" class="extype" name="com.github.nscala_time.time.StaticDateTimeZone">StaticDateTimeZone</a></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.StaticDuration" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.StaticDuration" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="StaticDuration"></a>
       <a id="StaticDuration:StaticDuration"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -795,11 +872,12 @@
         <span class="kind">object</span>
       </span>
       <span class="symbol">
-        <a href="StaticDuration$.html"><span class="name">StaticDuration</span></a><span class="result"> extends StaticDuration</span>
+        <a href="StaticDuration$.html"><span class="name">StaticDuration</span></a><span class="result"> extends <a href="StaticDuration.html" class="extype" name="com.github.nscala_time.time.StaticDuration">StaticDuration</a></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.StaticForwarderImports" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.StaticForwarderImports" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="StaticForwarderImports"></a>
       <a id="StaticForwarderImports:StaticForwarderImports"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -807,11 +885,12 @@
         <span class="kind">object</span>
       </span>
       <span class="symbol">
-        <a href="StaticForwarderImports$.html"><span class="name">StaticForwarderImports</span></a><span class="result"> extends StaticForwarderImports</span>
+        <a href="StaticForwarderImports$.html"><span class="name">StaticForwarderImports</span></a><span class="result"> extends <a href="StaticForwarderImports.html" class="extype" name="com.github.nscala_time.time.StaticForwarderImports">StaticForwarderImports</a></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.StaticInterval" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.StaticInterval" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="StaticInterval"></a>
       <a id="StaticInterval:StaticInterval"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -819,11 +898,12 @@
         <span class="kind">object</span>
       </span>
       <span class="symbol">
-        <a href="StaticInterval$.html"><span class="name">StaticInterval</span></a><span class="result"> extends StaticInterval</span>
+        <a href="StaticInterval$.html"><span class="name">StaticInterval</span></a><span class="result"> extends <a href="StaticInterval.html" class="extype" name="com.github.nscala_time.time.StaticInterval">StaticInterval</a></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.StaticLocalDate" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.StaticLocalDate" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="StaticLocalDate"></a>
       <a id="StaticLocalDate:StaticLocalDate"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -831,11 +911,12 @@
         <span class="kind">object</span>
       </span>
       <span class="symbol">
-        <a href="StaticLocalDate$.html"><span class="name">StaticLocalDate</span></a><span class="result"> extends StaticLocalDate</span>
+        <a href="StaticLocalDate$.html"><span class="name">StaticLocalDate</span></a><span class="result"> extends <a href="StaticLocalDate.html" class="extype" name="com.github.nscala_time.time.StaticLocalDate">StaticLocalDate</a></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.StaticLocalDateTime" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.StaticLocalDateTime" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="StaticLocalDateTime"></a>
       <a id="StaticLocalDateTime:StaticLocalDateTime"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -843,11 +924,12 @@
         <span class="kind">object</span>
       </span>
       <span class="symbol">
-        <a href="StaticLocalDateTime$.html"><span class="name">StaticLocalDateTime</span></a><span class="result"> extends StaticLocalDateTime</span>
+        <a href="StaticLocalDateTime$.html"><span class="name">StaticLocalDateTime</span></a><span class="result"> extends <a href="StaticLocalDateTime.html" class="extype" name="com.github.nscala_time.time.StaticLocalDateTime">StaticLocalDateTime</a></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.StaticLocalTime" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.StaticLocalTime" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="StaticLocalTime"></a>
       <a id="StaticLocalTime:StaticLocalTime"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -855,11 +937,12 @@
         <span class="kind">object</span>
       </span>
       <span class="symbol">
-        <a href="StaticLocalTime$.html"><span class="name">StaticLocalTime</span></a><span class="result"> extends StaticLocalTime</span>
+        <a href="StaticLocalTime$.html"><span class="name">StaticLocalTime</span></a><span class="result"> extends <a href="StaticLocalTime.html" class="extype" name="com.github.nscala_time.time.StaticLocalTime">StaticLocalTime</a></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.StaticPartial" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.StaticPartial" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="StaticPartial"></a>
       <a id="StaticPartial:StaticPartial"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -867,11 +950,12 @@
         <span class="kind">object</span>
       </span>
       <span class="symbol">
-        <a href="StaticPartial$.html"><span class="name">StaticPartial</span></a><span class="result"> extends StaticPartial</span>
+        <a href="StaticPartial$.html"><span class="name">StaticPartial</span></a><span class="result"> extends <a href="StaticPartial.html" class="extype" name="com.github.nscala_time.time.StaticPartial">StaticPartial</a></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.StaticPeriod" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.StaticPeriod" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="StaticPeriod"></a>
       <a id="StaticPeriod:StaticPeriod"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -879,11 +963,12 @@
         <span class="kind">object</span>
       </span>
       <span class="symbol">
-        <a href="StaticPeriod$.html"><span class="name">StaticPeriod</span></a><span class="result"> extends StaticPeriod</span>
+        <a href="StaticPeriod$.html"><span class="name">StaticPeriod</span></a><span class="result"> extends <a href="StaticPeriod.html" class="extype" name="com.github.nscala_time.time.StaticPeriod">StaticPeriod</a></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.StringImplicits" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.StringImplicits" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="StringImplicits"></a>
       <a id="StringImplicits:StringImplicits"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -891,11 +976,12 @@
         <span class="kind">object</span>
       </span>
       <span class="symbol">
-        <a href="StringImplicits$.html"><span class="name">StringImplicits</span></a><span class="result"> extends StringImplicits</span>
+        <a href="StringImplicits$.html"><span class="name">StringImplicits</span></a><span class="result"> extends <a href="StringImplicits.html" class="extype" name="com.github.nscala_time.time.StringImplicits">StringImplicits</a></span>
       </span>
       </h4>
       
-    </li><li visbl="pub" name="com.github.nscala_time.time.TypeImports" data-isabs="false">
+    </li><li name="com.github.nscala_time.time.TypeImports" visbl="pub" data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="TypeImports"></a>
       <a id="TypeImports:TypeImports"></a>
       <h4 class="signature">
       <span class="modifier_kind">
@@ -903,7 +989,7 @@
         <span class="kind">object</span>
       </span>
       <span class="symbol">
-        <a href="TypeImports$.html"><span class="name">TypeImports</span></a><span class="result"> extends TypeImports</span>
+        <a href="TypeImports$.html"><span class="name">TypeImports</span></a><span class="result"> extends <a href="TypeImports.html" class="extype" name="com.github.nscala_time.time.TypeImports">TypeImports</a></span>
       </span>
       </h4>
       
@@ -911,10 +997,20 @@
             </div>
 
         
+
+        
         </div>
 
         <div id="inheritedMembers">
         
+        
+        </div>
+
+        <div id="groupedMembers">
+        <div class="group" name="Ungrouped">
+              <h3>Ungrouped</h3>
+              
+            </div>
         </div>
 
       </div>
