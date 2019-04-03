@@ -1,3 +1,5 @@
+DEPRECATED
+
 # nscala-time
 [![Build Status](https://travis-ci.org/nscala-time/nscala-time.png)](https://travis-ci.org/nscala-time/nscala-time)
 
